@@ -7,7 +7,7 @@ from contextlib import redirect_stdout
 import aiohttp
 from discord.ext import commands
 
-class Eval:
+class Eval(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
